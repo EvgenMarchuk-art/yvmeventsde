@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="description"
+      content="Impressum und Datenschutzerklärung: DJ- und Event-Dienstleistungen, Veranstaltungstechnik, Social-Media-Profile."
+    />
+    <title>Rechtliche Hinweise — Yevhen Marchuk</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d12'/%3E%3Cpath d='M17 42V22h8.5c8.5 0 13.5 3.7 13.5 10s-5 10-13.5 10H17Zm7-6h2c4.2 0 6.5-1.2 6.5-4S30.2 28 26 28h-2v8Zm20-14h6v20h-6z' fill='%23ffcf33'/%3E%3C/svg%3E"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #08090c;
+        --panel: #111319;
+        --panel-2: #171a22;
+        --text: #f3f5f7;
+        --muted: #a8acb8;
+        --line: #2b2f3a;
+        --accent: #ffcf33;
+        --accent-ink: #171300;
+        --max: 74rem;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at 85% -10%, rgba(255, 207, 51, 0.13), transparent 28rem),
+          var(--bg);
+        color: var(--text);
+        font: 400 1rem/1.7 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      a { color: inherit; text-underline-offset: 0.2em; }
+      a:hover { color: var(--accent); }
+      button { font: inherit; }
+      .shell { width: min(calc(100% - 2rem), var(--max)); margin-inline: auto; }
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+        background: rgba(8, 9, 12, .86);
+        backdrop-filter: blur(18px);
+      }
+      .topbar-inner {
+        min-height: 4.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.25rem;
+      }
+      .brand { display: flex; align-items: center; gap: .8rem; font-weight: 750; letter-spacing: -.02em; }
+      .brand-mark {
+        width: 2.25rem;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        border-radius: .7rem;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-size: .83rem;
+        font-weight: 900;
+      }
+      .top-actions { display: flex; gap: .5rem; }
+      .top-actions button {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: .55rem .9rem;
+        background: var(--panel);
+        color: var(--text);
+        cursor: pointer;
+      }
+      .hero { padding: clamp(3.75rem, 9vw, 7.5rem) 0 2.5rem; }
+      .eyebrow { margin: 0 0 1rem; color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+      h1 { max-width: 12ch; margin: 0; font-size: clamp(2.7rem, 8vw, 6.8rem); line-height: .94; letter-spacing: -.065em; }
+      .intro { max-width: 42rem; margin: 1.6rem 0 0; color: var(--muted); font-size: clamp(1.05rem, 2.2vw, 1.28rem); }
+      .tabs-wrap { position: sticky; top: 4.75rem; z-index: 8; background: linear-gradient(var(--bg) 78%, transparent); padding: .75rem 0 1.25rem; }
+      .tabs { display: inline-flex; padding: .35rem; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); }
+      .tab {
+        min-height: 2.75rem;
+        border: 0;
+        border-radius: 999px;
+        padding: .55rem 1rem;
+        background: transparent;
+        color: var(--muted);
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .tab[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
+      main { padding-bottom: 7rem; }
+      .document { display: grid; grid-template-columns: minmax(0, 1fr) 15rem; gap: clamp(2rem, 7vw, 6rem); align-items: start; }
+      .paper {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: 1.5rem;
+        background: linear-gradient(145deg, rgba(255,255,255,.025), transparent 24%), var(--panel);
+        padding: clamp(1.4rem, 5vw, 4.2rem);
+        box-shadow: 0 1.5rem 5rem rgba(0,0,0,.24);
+      }
+      .paper h2 { margin: 0 0 2rem; font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1; letter-spacing: -.05em; }
+      .paper h3 { margin: 2.8rem 0 .75rem; font-size: 1.25rem; letter-spacing: -.02em; }
+      .paper h3:first-of-type { margin-top: 0; }
+      .paper h2, .paper h3 { scroll-margin-top: 9.5rem; }
+      .paper p, .paper ul { max-width: 48rem; }
+      .paper p { margin: .55rem 0 1rem; }
+      .paper ul { margin: .7rem 0 1.2rem; padding-left: 1.35rem; }
+      .paper li + li { margin-top: .4rem; }
+      address { font-style: normal; }
+      .legal-name { font-size: 1.22rem; font-weight: 750; }
+      .label { display: block; color: var(--muted); font-size: .83rem; letter-spacing: .04em; text-transform: uppercase; }
+      .fact-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: .85rem; margin: 1.5rem 0; }
+      .fact { padding: 1rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--panel-2); overflow-wrap: anywhere; }
+      .toc { position: sticky; top: 9.3rem; }
+      .toc p { margin: 0 0 .8rem; color: var(--muted); font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      .toc a { display: block; padding: .48rem 0; color: var(--muted); text-decoration: none; }
+      .toc a:hover { color: var(--text); }
+      [hidden] { display: none !important; }
+      footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+      footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+
+      @media (max-width: 50rem) {
+        .brand span:last-child { display: none; }
+        .document { grid-template-columns: 1fr; }
+        .toc { display: none; }
+        .fact-grid { grid-template-columns: 1fr; }
+        .tabs-wrap { overflow-x: auto; }
+      }
+      @media (max-width: 31rem) {
+        .shell { width: min(calc(100% - 1.1rem), var(--max)); }
+        .top-actions button:first-child { display: none; }
+        .paper { border-radius: 1rem; }
+        .tab { padding-inline: .8rem; }
+      }
+      @media print {
+        :root { color-scheme: light; }
+        body { background: #fff; color: #111; font-size: 11pt; }
+        .topbar, .hero, .tabs-wrap, .toc, footer { display: none !important; }
+        main { padding: 0; }
+        .shell { width: 100%; }
+        .document { display: block; }
+        .paper { border: 0; box-shadow: none; padding: 0; background: #fff; }
+        .paper h2 { font-size: 28pt; }
+        [role="tabpanel"] + [role="tabpanel"] { break-before: page; }
+        .fact { border-color: #ccc; background: #fff; }
+        a { text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <div class="brand"><span class="brand-mark">YM</span><span>Yevhen Marchuk</span></div>
+        <div class="top-actions">
+          <button type="button" data-copy-link>Link kopieren</button>
+          <button type="button" onclick="window.print()">Drucken / PDF</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero shell">
+      <h1>Impressum &amp; Datenschutz</h1>
+    </section>
+
+    <div class="tabs-wrap">
+      <div class="shell">
+        <div class="tabs" role="tablist" aria-label="Rechtliche Dokumente">
+          <button class="tab" role="tab" id="tab-impressum" aria-controls="impressum" aria-selected="true">Impressum</button>
+          <button class="tab" role="tab" id="tab-datenschutz" aria-controls="datenschutz" aria-selected="false">Datenschutz</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="shell">
+      <section id="impressum" role="tabpanel" aria-labelledby="tab-impressum">
+        <div class="document">
+          <article class="paper">
+            <h2>Impressum</h2>
+
+            <h3 id="anbieter">Angaben zum Diensteanbieter</h3>
+            <p class="label">Angaben gemäß § 5 DDG und § 18 Abs. 1 MStV</p>
+            <address>
+              <p class="legal-name">Yevhen Viktorovych Marchuk</p>
+              <p>Einzelunternehmen<br />c/o Änderungsschneiderei &quot;O.K.&quot;<br />Passagehof 18<br />76133 Karlsruhe<br />Deutschland</p>
+            </address>
+
+            <div class="fact-grid">
+              <div class="fact"><span class="label">E-Mail</span><a href="mailto:yvmevebtsde@gmail.com">yvmevebtsde@gmail.com</a></div>
+            </div>
+            <p>Anfragen per E-Mail beantworten wir in der Regel innerhalb eines Werktages. Darüber hinaus sind wir kurzfristig per Direktnachricht in unserem Instagram-Profil erreichbar.</p>
+
+            <h3 id="content">Verantwortlich für den Inhalt</h3>
+            <p>Verantwortlich im Sinne des § 18 Abs. 2 MStV:</p>
+            <p>Yevhen Viktorovych Marchuk<br />c/o Änderungsschneiderei &quot;O.K.&quot;<br />Passagehof 18<br />76133 Karlsruhe<br />Deutschland</p>
+
+          </article>
+
+          <nav class="toc" aria-label="Inhalt Impressum">
+            <p>Auf dieser Seite</p>
+            <a href="#anbieter">Diensteanbieter</a>
+            <a href="#content">Verantwortlichkeit</a>
+          </nav>
+        </div>
+      </section>
+
+      <section id="datenschutz" role="tabpanel" aria-labelledby="tab-datenschutz" hidden>
+        <div class="document">
+          <article class="paper">
+            <h2>Datenschutz</h2>
+            <p>Diese Erklärung betrifft diese Seite, unsere Social-Media-Profile und Anfragen zu unseren Leistungen.</p>
+
+            <h3 id="controller">1. Verantwortlicher für die Verarbeitung</h3>
+            <p>Yevhen Viktorovych Marchuk<br />c/o Änderungsschneiderei &quot;O.K.&quot;<br />Passagehof 18<br />76133 Karlsruhe<br />Deutschland</p>
+            <p>E-Mail: <a href="mailto:yvmevebtsde@gmail.com">yvmevebtsde@gmail.com</a></p>
+
+            <h3 id="meta">2. Instagram und Meta Platforms Ireland</h3>
+            <p>Die Plattform Instagram wird von der Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland bereitgestellt. Beim Besuch des Profils verarbeitet Meta eigenständig Geräte- und Nutzungsdaten, die IP-Adresse, Kontodaten, Cookies und vergleichbare Kennungen. Meta bestimmt einen wesentlichen Teil der Zwecke und Mittel dieser Verarbeitung.</p>
+            <p>Einzelheiten enthält die <a href="https://privacycenter.instagram.com/policy/" rel="noopener noreferrer">Datenschutzrichtlinie von Instagram</a>. Auf die Daten, die Meta in eigener Verantwortung erhebt und nutzt, haben wir keinen vollständigen Zugriff.</p>
+
+            <h3 id="interactions">3. Nachrichten und Interaktionen</h3>
+            <p>Wenn Sie uns eine Direktnachricht schreiben, Beiträge kommentieren oder anderweitig Kontakt aufnehmen, verarbeiten wir Ihren Benutzernamen, öffentlich zugängliche Profilangaben, den Inhalt der Nachricht und Interaktionsdaten — um zu antworten und das Profil zu betreiben.</p>
+            <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DS-GVO, soweit es um einen Vertrag geht, im Übrigen Art. 6 Abs. 1 lit. f DS-GVO. Die Daten werden nach abschließender Bearbeitung gelöscht, soweit keine Aufbewahrungsfristen entgegenstehen.</p>
+
+            <h3 id="booking">4. Anfragen zu unseren Leistungen</h3>
+            <p>Wenn Sie ein DJ-Set, eine Veranstaltung oder Technik anfragen, verarbeiten wir Ihre Kontaktdaten, Angaben zur Veranstaltung sowie die für Abrechnung und Rechnungsstellung erforderlichen Daten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DS-GVO, für Rechnungsunterlagen zusätzlich lit. c in Verbindung mit § 147 AO und § 257 HGB.</p>
+            <p>Wird die Technik von einem Partner bereitgestellt, übermitteln wir ihm die Daten, die für die Kontaktaufnahme mit Ihnen, die Abwicklung des Auftrags und die Rechnungsstellung erforderlich sind. Der Partner verarbeitet sie in eigener Verantwortung. Stammt die Technik von uns selbst, werden keine Daten an Dritte weitergegeben.</p>
+            <p>Buchhaltungsunterlagen bewahren wir für die gesetzlichen Fristen auf; übrige Daten löschen wir, sobald der Zweck der Verarbeitung entfällt.</p>
+
+            <h3 id="advertising">5. Werbung und Kooperationen</h3>
+            <p>In unseren Profilen veröffentlichen wir Werbung und Kooperationen mit Marken. Solche Beiträge werden als Werbung gekennzeichnet. Kontakt- und Vertragsdaten von Werbepartnern verarbeiten wir auf Grundlage von Art. 6 Abs. 1 lit. b DS-GVO.</p>
+
+            <h3 id="insights">6. Instagram Insights</h3>
+            <p>Unser Profil ist ein professionelles Konto, daher stellt Instagram uns zusammengefasste Statistiken bereit: Reichweite, Aufrufe, Reaktionen und demografische Angaben zur Zielgruppe. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DS-GVO; das berechtigte Interesse liegt in der Auswertung der Wirksamkeit des Profils.</p>
+            <p>Hinsichtlich dieser Statistiken sind Meta und der Profilinhaber gemeinsam Verantwortliche nach Art. 26 DS-GVO; das Wesentliche der Vereinbarung stellt Meta im <a href="https://www.facebook.com/legal/terms/page_controller_addendum" rel="noopener noreferrer">Page Insights Controller Addendum</a> bereit.</p>
+
+            <h3 id="hosting">7. Website und Empfänger der Daten</h3>
+            <p>Diese Seite wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. GitHub protokolliert aus Sicherheitsgründen die IP-Adresse, den Zeitpunkt der Anfrage und Angaben zum Browser; Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DS-GVO. Eigene Cookies, Analysewerkzeuge oder externe Schriftarten setzt die Seite nicht ein.</p>
+            <p>GitHub und Meta können Daten in den USA verarbeiten und erklären ihre Teilnahme am EU-U.S. Data Privacy Framework; ergänzend werden die Standardvertragsklauseln der Europäischen Kommission verwendet. An weitere Empfänger — Partner, Berater oder Behörden — geben wir Daten nur weiter, wenn dafür eine Rechtsgrundlage besteht.</p>
+
+            <h3 id="rights">8. Ihre Rechte</h3>
+            <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht, der Verarbeitung zu widersprechen. Wenden Sie sich dazu an die oben genannte E-Mail-Adresse.</p>
+            <p><strong>Widerspruchsrecht nach Art. 21 DS-GVO:</strong> Beruht die Verarbeitung auf Art. 6 Abs. 1 lit. e oder f DS-GVO, können Sie ihr jederzeit aus Gründen widersprechen, die sich aus Ihrer besonderen Situation ergeben.</p>
+            <p>Für die Verarbeitung durch Meta selbst können Sie sich über die Instagram-Einstellungen an Meta wenden; nach Art. 26 Abs. 3 DS-GVO können Sie Ihre Rechte bei jedem der gemeinsam Verantwortlichen geltend machen. Eine Beschwerde können Sie bei einer Aufsichtsbehörde einreichen — für Baden-Württemberg ist dies <a href="https://www.baden-wuerttemberg.datenschutz.de/" rel="noopener noreferrer">Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg</a>.</p>
+            <p>Die Bereitstellung der Daten ist freiwillig; ohne Kontaktdaten können wir eine Anfrage nicht beantworten. Eine ausschließlich auf automatisierter Verarbeitung beruhende Entscheidungsfindung einschließlich Profiling findet nicht statt.</p>
+
+            <h3 id="changes">9. Aktualität und Änderungen</h3>
+            <p>Stand: 18. September 2026.</p>
+            <p>Wir aktualisieren diese Informationen, wenn sich Funktionen des Profils, der Umfang der verarbeiteten Daten oder die rechtlichen Anforderungen ändern. Die jeweils aktuelle Fassung ist auf dieser Seite abrufbar.</p>
+          </article>
+
+          <nav class="toc" aria-label="Inhalt Datenschutz">
+            <p>Auf dieser Seite</p>
+            <a href="#controller">Verantwortlicher</a>
+            <a href="#meta">Instagram und Meta</a>
+            <a href="#interactions">Nachrichten</a>
+            <a href="#booking">Anfragen</a>
+            <a href="#advertising">Werbung</a>
+            <a href="#insights">Insights</a>
+            <a href="#hosting">Website und Empfänger</a>
+            <a href="#rights">Ihre Rechte</a>
+            <a href="#changes">Aktualität</a>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell"><span>© 2026 Yevhen Marchuk</span></div>
+    </footer>
+
+    <script>
+      const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+      const panels = Array.from(document.querySelectorAll('[role="tabpanel"]'));
+
+      function activateTab(tab, { updateHash = true, scroll = true } = {}) {
+        tabs.forEach((item) => {
+          const selected = item === tab;
+          item.setAttribute('aria-selected', String(selected));
+          item.tabIndex = selected ? 0 : -1;
+        });
+        panels.forEach((panel) => { panel.hidden = panel.id !== tab.getAttribute('aria-controls'); });
+        if (updateHash) history.replaceState(null, '', `#${tab.getAttribute('aria-controls')}`);
+        if (scroll) window.scrollTo({ top: document.querySelector('.tabs-wrap').offsetTop - 72, behavior: 'smooth' });
+      }
+
+      function tabForHash(hash) {
+        const target = hash && hash.length > 1 ? document.getElementById(decodeURIComponent(hash.slice(1))) : null;
+        const panel = target && target.closest('[role="tabpanel"]');
+        return panel ? tabs.find((tab) => tab.getAttribute('aria-controls') === panel.id) : null;
+      }
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener('click', () => activateTab(tab));
+        tab.addEventListener('keydown', (event) => {
+          if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+          event.preventDefault();
+          const direction = event.key === 'ArrowRight' ? 1 : -1;
+          const next = tabs[(index + direction + tabs.length) % tabs.length];
+          next.focus();
+          activateTab(next);
+        });
+      });
+
+      document.querySelector('[data-copy-link]').addEventListener('click', async (event) => {
+        const button = event.currentTarget;
+        const original = button.textContent;
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(window.location.href);
+          } else {
+            const field = document.createElement('textarea');
+            field.value = window.location.href;
+            field.setAttribute('readonly', '');
+            field.style.position = 'fixed';
+            field.style.opacity = '0';
+            document.body.appendChild(field);
+            field.select();
+            const copied = document.execCommand('copy');
+            field.remove();
+            if (!copied) throw new Error('Copy failed');
+          }
+          button.textContent = 'Kopiert';
+          setTimeout(() => { button.textContent = original; }, 1400);
+        } catch {
+          button.textContent = 'Kopieren fehlgeschlagen';
+          setTimeout(() => { button.textContent = original; }, 1800);
+        }
+      });
+
+      document.addEventListener('click', (event) => {
+        const link = event.target.closest('a[href^="#"]');
+        if (!link) return;
+        const hash = link.getAttribute('href');
+        const tab = tabForHash(hash);
+        if (!tab || tab.getAttribute('aria-selected') === 'true') return;
+        event.preventDefault();
+        activateTab(tab, { updateHash: false, scroll: false });
+        history.replaceState(null, '', hash);
+        document.getElementById(decodeURIComponent(hash.slice(1))).scrollIntoView({ behavior: 'smooth' });
+      });
+
+      window.addEventListener('beforeprint', () => { panels.forEach((panel) => { panel.hidden = false; }); });
+      window.addEventListener('afterprint', () => {
+        const active = tabs.find((tab) => tab.getAttribute('aria-selected') === 'true');
+        if (active) activateTab(active, { updateHash: false, scroll: false });
+      });
+
+      const initial = tabForHash(window.location.hash);
+      activateTab(initial || tabs[0], { updateHash: false, scroll: false });
+      if (initial) document.getElementById(decodeURIComponent(window.location.hash.slice(1))).scrollIntoView();
+    </script>
+  </body>
+</html>
